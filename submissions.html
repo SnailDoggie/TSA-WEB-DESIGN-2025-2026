@@ -1,0 +1,105 @@
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <title>Community </title>
+    </head>
+    <body>
+     <!--navbar-->
+     <nav class = "navbar sticky-top navbar-expand-lg navbar navbar-light" style = "background-color: #d2e0d1;"  >
+        <div class = "container-fluid">
+            <a class="navbar-brand" href="#">Civitas</a>
+
+
+            <!--mobile collapse-->
+            <button class = navbar-toggler type = "button" data-toggle = "collapse" data-target = "#main-nav" aria-controls = "#main-nav" aria-expanded = "false" aria-label = "toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <!--links-->
+            <div class = "collapse navbar-collapse justify-content-end align-center" id = "main-nav">
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "index.html">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "resources.html">Resources</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "submissions.html">Submissions</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "references.html">References</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+
+    <div class="row-fluid-block">
+        <div class = "col-xl">
+            <img src = "assets/SUBMISSIONS BANNER.jpg" class="img-fluid" alt="Responsive image"> 
+    </div>
+        
+
+    <div class = "container min-vh-100 d-flex justify-content-center align-items-center">
+     <form
+        action = "https://formspree.io/f/xqeeqqej"
+        method = "POST"
+        >
+                <div class = "form-group form-control">
+                    <label class = "form-label">
+                        Email Address
+                    </label>
+                        <input type = "email" name = "email"  class = "form-control" id = "formInputOne" placeholder = "name@example.com">
+                    
+                </div>
+                <br>
+                <br>
+                <div class = "form-group form-control">
+                    <label class = "form-label">
+                        What resource would you like to be added to our database?
+                    </label>
+                    <br>
+                    <textarea class = "form-control" name = "message" id = "FormInputTwo" rows ="5"></textarea>
+
+                </div>
+                <br>
+                <br>
+                <div class = "form-group form-control">
+                    <label for = "FormInputThree" class = "form-label">
+                        Why would you reccomend this resource?
+                    </label>
+                    <br>
+                    <textarea class = "form-control" id = "FormInputThree" rows ="5"  name = "message"></textarea>
+
+                </div>
+                <br>
+                <br>
+            <button type = "submit" class = "btn btn-outline-dark">Submit</button>
+     </form>
+    </div>
+    <footer style = "background-color: #d2e0d1;">
+        <p class = "lead-sm">
+
+            &copy; Civitas <br>
+            Providing support and resources for the <br>
+            families of Mountlake Terrace
+
+            <br>
+            <br>
+            <br>
+        
+            Washinton Technology Student Association 
+        </p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
